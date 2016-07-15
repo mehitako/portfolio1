@@ -1,0 +1,38 @@
+.heading{
+	margin-bottom: 25px;
+}
+.project_item{
+	width:175px;
+	height:200px;
+	display: inline-block;
+	text-align: center;
+	margin:0 5px 20px 20px;
+}
+.addnew{
+	width:175px;
+	padding-top: 0;
+	margin:0;
+	display: inline-block;
+	text-align: center;
+	margin:0 5px 20px 20px;
+}
+.project_image {
+	width:175px;
+	height:125px;
+	border:2px solid #3ba8c0;
+	border-radius: 7px;
+}
+.addnew_img{
+	padding:30px;
+	border:1px dotted #3ba8c0;
+	border-radius: 7px;
+}
+.image_caption{
+	font-style:italic;
+	font-size: 13px;
+	color: #3ba8c0;
+}
+.project_info{
+color: #4a545d;
+font-size: 15px;
+}
