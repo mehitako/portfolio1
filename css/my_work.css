@@ -2,6 +2,7 @@
 	margin-bottom: 25px;
 }
 .project_item{
+	float:left;
 	width:175px;
 	height:200px;
 	display: inline-block;
@@ -10,20 +11,41 @@
 }
 .addnew{
 	width:175px;
-	padding-top: 0;
-	margin:0;
-	display: inline-block;
+	height:200px;
+	display: inline;
 	text-align: center;
 	margin:0 5px 20px 20px;
+}
+
 }
 .project_image {
 	width:175px;
 	height:125px;
 	border:2px solid #3ba8c0;
 	border-radius: 7px;
+	position: relative;
+}
+
+
+.hover_text{
+position:absolute;
+padding:10px;
+margin-top: 45px;
+margin-left: 60px;
+text-decoration: none;
+color:#eff3f7;
+border:2px solid #eff3f7;
+border-radius: 7px;
+opacity: 0;
+transition:opacity 1s;
+}
+.hover_text:hover{
+	opacity:0.8;
+	background
 }
 .addnew_img{
 	padding:30px;
+	margin-bottom: 140px;
 	border:1px dotted #3ba8c0;
 	border-radius: 7px;
 }
